@@ -1,9 +1,9 @@
 import React from 'react';
 import { useHistory, useLocation } from 'react-router-dom';
-import { Button, Col, Row, Typography } from 'antd';
+import { Button, Col, Row } from 'antd';
 import styled from 'styled-components';
 
-const { Text } = Typography;
+//const { Text } = Typography;
 
 const NavBarButton = styled(Button)`
   color: black;
