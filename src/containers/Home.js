@@ -19,7 +19,7 @@ function Home() {
   return (
     <HomeContentContainer>
         <Title style={{ marginTop:'75px', fontSize: '50pt'}}>Music Around The World</Title>
-        <Paragraph style={{ marginTop:'75px'}}>Fill in description of project here</Paragraph>
+        <Paragraph style={{ marginTop:'75px'}}>Music is Cool! Fill in description of project here</Paragraph>
         <Button onClick={() => history.push('/explore')} size='large'>Continue<RightOutlined /></Button>
     </HomeContentContainer>
   );
