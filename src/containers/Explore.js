@@ -3,7 +3,7 @@ import ContentContainer from '../components/ContentContainer';
 import { Typography, Button } from 'antd';
 import { getArtists, getGenres, getCountries, getSongs } from '../api';
 
-const { Title, Paragraph } = Typography;
+const { Title } = Typography;
 
 function Explore() {
 

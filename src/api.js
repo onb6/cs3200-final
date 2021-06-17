@@ -7,6 +7,12 @@ async function apiGet(path) {
     return resp.data;
   }
 
+export function getStats(country, year, season) {
+    apiGet(`/stat?country=${country}&year=${year}&season=${season}`).then((data) => {
+    return data;
+  })
+}
+
 export function getArtists() {
     apiGet("/artist").then((data) => {
     return data;

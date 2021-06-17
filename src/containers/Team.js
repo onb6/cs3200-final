@@ -2,7 +2,7 @@ import React from 'react';
 import ContentContainer from '../components/ContentContainer';
 import { Typography, Image} from 'antd';
 
-const { Title, Paragraph } = Typography;
+const { Title } = Typography;
 
 function Team() {
 
