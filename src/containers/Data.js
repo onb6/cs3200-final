@@ -1,14 +1,12 @@
 import React from 'react';
 import ContentContainer from '../components/ContentContainer';
-import { Typography } from 'antd';
-
-const { Title } = Typography;
+import { FontTitle } from './explore/Explore';
 
 function Data() {
 
   return (
     <ContentContainer>
-        <Title>Data</Title>
+        <FontTitle>Data</FontTitle>
     </ContentContainer>
   );
 }

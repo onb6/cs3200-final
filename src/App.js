@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import './App.css';
+import './App.less';
 import Home from './containers/Home';
-import Explore from './containers/Explore';
+import Explore from './containers/explore/Explore';
 import Data from './containers/Data';
 import Team from './containers/Team';
 import NavBar from './components/NavBar';

@@ -6,20 +6,27 @@ import styled from 'styled-components';
 //const { Text } = Typography;
 
 const NavBarButton = styled(Button)`
-  color: black;
+  color: #652600;
+  font-family: 'Playfair Display', serif;
+  font-size: 14pt;
   padding-left: 1em;
   padding-right: 1em;
   :active {
     color: inherit;
+    font-family: 'Playfair Display', serif;
+    font-size: 14pt;
   }
   :hover {
     color: #fe9fa3;
+    font-family: 'Playfair Display', serif;
+    font-size: 14pt;
   }
 `;
 
 const ActiveNavBarButton = styled(NavBarButton)`
   color: #fe9fa3;
   font-weight: 500;
+  font-family: "Playfair-Display"; 
 `;
 
 // const Logo = styled(Image)`
@@ -33,7 +40,7 @@ const NavBarContainer = styled.div`
   height: 80px;
   padding-left: 100px;
   padding-right: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,7 +54,7 @@ function NavBar() {
   const links = {
     Home: '/',
     Explore: '/explore',
-    Data: '/data',
+  //  Data: '/data',
     Team: '/team'
   };
 
